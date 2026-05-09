@@ -735,12 +735,9 @@ a {
 
 .movie__card__container--skeleton {
   display: flex;
-  gap: 12px;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 240px;
-  left: 320px;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 250px auto;
 }
 
 /* Media Queries */

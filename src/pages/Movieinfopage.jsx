@@ -78,7 +78,6 @@ const Movieinfopage = ({ movies }) => {
     );
   }, [id]);
 
-  console.log('render — loading:', loading, 'imgLoading:', imgLoading);
   return (
     <>
       <section className="movie__info__page-section">
